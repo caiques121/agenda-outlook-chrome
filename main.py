@@ -7,6 +7,7 @@ Este script tem como objetivo transferir compromissos da agenda do outlook, para
 """
 
 ## Carrega funções e libs
+import os
 from functions.extrai import extrai
 from functions.insere import insere
 
